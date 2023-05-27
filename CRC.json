@@ -1,0 +1,51 @@
+[
+    {
+      "name": "gerenciador",
+      "superclasses": "",
+      "subclasses": "",
+      "type": 1,
+      "responsibilities": [
+        "Armazenar vídeos em um banco de dados - Ação",
+        "Excluir vídeos desse banco de dados - Ação"
+      ],
+      "collaborators": [
+        "vídeo",
+        "Usuário",
+        "Player"
+      ]
+    },
+    {
+      "name": "vídeo",
+      "superclasses": "",
+      "subclasses": "",
+      "type": 1,
+      "responsibilities": [
+        "Armazena informações sobre os vídeos - informação",
+        "Receber ou cadastrar dados sobre os vídeos - ação",
+        "Cadastrar vídeo no repositório"
+      ],
+      "collaborators": [
+        "usuário",
+        "player",
+        "gerenciador"
+      ]
+    },
+    {
+      "name": "usuário",
+      "superclasses": "",
+      "subclasses": "",
+      "type": 1,
+      "responsibilities": [
+        "Dados de usuário - informação",
+        "se cadastrar - ação",
+        "pesquisar por vídeo - ação",
+        "gerenciar tocador de vídeo - ação",
+        "gerenciar um vídeo - ação"
+      ],
+      "collaborators": [
+        "player",
+        "gerenciador",
+        "vídeo"
+      ]
+    }
+  ]

@@ -26,3 +26,8 @@ User Story:
    * Direcionamento para guia de login ou cadastro
    * Requisição de dados pessoais
    * Confirmação de e-mail
+
+# Modelagem CRC:
+
+*Implementação de tres cartões CRC*
+ 
